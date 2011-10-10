@@ -1,0 +1,21 @@
+[
+    { "keys": ["ctrl+."], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["ctrl+shift+."], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["ctrl+alt+."], "command": "prompt_select_project" },
+
+    {"keys": ["ctrl+a"], "command": "move_to", "args": {"to": "bol", "extend": false}},
+    {"keys": ["ctrl+e"], "command": "move_to", "args": {"to": "eol", "extend": false}},
+
+    {"keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false}},
+    {"keys": ["ctrl+n"], "command": "move", "args": {"by": "lines", "forward": true}},
+    {"keys": ["ctrl+f"], "command": "move", "args": {"by": "characters", "forward": true}},
+    {"keys": ["ctrl+b"], "command": "move", "args": {"by": "characters", "forward": false}},
+
+    {"keys": ["ctrl+s"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse":false}},
+    {"keys": ["ctrl+shift+s"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse":true}},
+
+    {"keys": ["ctrl+-"], "command": "slurp_find_string"},
+
+    {"keys": ["ctrl+x", "c"], "command": "new_file"},
+    {"keys": ["ctrl+x", "ctrl+s"], "command": "save"}
+]

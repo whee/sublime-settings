@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"default_line_ending": "unix",
+	"font_face": "Consolas",
+	"font_size": 10.0,
+	"rulers":
+	[
+		80
+	],
+	"translate_tabs_to_spaces": true
+}
