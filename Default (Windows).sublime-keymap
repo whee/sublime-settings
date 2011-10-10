@@ -16,6 +16,6 @@
 
     {"keys": ["ctrl+-"], "command": "slurp_find_string"},
 
-    {"keys": ["ctrl+x", "c"], "command": "new_file"},
+    {"keys": ["ctrl+b", "c"], "command": "new_file"},
     {"keys": ["ctrl+x", "ctrl+s"], "command": "save"}
 ]
